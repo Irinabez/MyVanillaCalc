@@ -1,6 +1,6 @@
 
 body {
-    background-color: #d3cdb1;
+    background-color: darkgray ;
     padding: 40px;
     text-align: center;
     font-size: 16pt;
@@ -17,6 +17,9 @@ h1{
 button{
     width: 60px;
     height: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16pt;
 
 }
 
