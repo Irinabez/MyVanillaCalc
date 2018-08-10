@@ -45,3 +45,4 @@ function setInitialValue(firstValueByDefault) {
     operandValue = '';
     secondValue = '';
 }
+//
