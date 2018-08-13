@@ -1,7 +1,6 @@
 let firstValue= '';
 let operandValue= '';
 let secondValue= '';
-let result = 0;
 
 function digit(n) {
 

@@ -8,27 +8,32 @@
 
 </head>
 <body>
-<input type="text" id="display"readonly>
+<input class="input" type="text" id="display"readonly>
+<button onclick="allClear()">AC</button>
 
-<button onclick="digit(1)">1</button>
-<button onclick="digit(2)">2</button>
-<button onclick="digit(3)">3</button>
-<button onclick="digit(4)">4</button>
 <hr>
-<button onclick="digit(5)">5</button>
-<button onclick="digit(6)">6</button>
-<button onclick="digit(7)">7</button>
-<button onclick="digit(8)">8</button>
-<hr>
+
 <button onclick="digit(9)">9</button>
+<button onclick="digit(8)">8</button>
+<button onclick="digit(7)">7</button>
 <button onclick="operand('+')">+</button>
+<hr>
+<button onclick="digit(6)">6</button>
+<button onclick="digit(5)">5</button>
+<button onclick="digit(4)">4</button>
 <button onclick="operand('-')">-</button>
+<hr>
+<button onclick="digit(3)">3</button>
+<button onclick="digit(2)">2</button>
+<button onclick="digit(1)">1</button>
 <button onclick="operand('/')">/</button>
 <hr>
+<button class="zero" onclick="digit(0)">0</button>
+<button onclick="digit('.')">.</button>
 <button onclick="operand('*')">*</button>
 <button onclick="getResult()">=</button>
-<button onclick="digit('.')">.</button>
-<button onclick="allClear()">AC</button>
+
+
 
 <script src="script.js"></script>
 
