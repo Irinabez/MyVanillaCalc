@@ -1,15 +1,22 @@
 {
   "name": "myvanillacalc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is a practice Calculator to assimulate CSS, JS and HTML\r ![Calculator](https://github.com/Irinabez/MyVanillaCalc/blob/master/Calc.png?raw=true \"Calculator\")",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irinabez/MyVanillaCalc.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irinabez/MyVanillaCalc/issues"
+  },
+  "homepage": "https://github.com/Irinabez/MyVanillaCalc#readme",
   "devDependencies": {
-    "eslint": "^5.3.0"
+    "eslint": "^5.4.0"
   }
 }
-//
